@@ -1,5 +1,7 @@
 # Qingkai Dong
 
+![My Image](./images/profile_picture.jpg)
+
 Hello world!
 
 I'm Qingkai Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
