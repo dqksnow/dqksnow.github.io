@@ -46,7 +46,7 @@ Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese)
 <a id="3">[3]</a> 
 Zhao H., Dong Q. (2022). 
 A Variable Selection Method for the Additive Hazards Model with Current Status Data.
-Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese) [PDF](pdfs/2022-Zhao-A Variable Selection Method for the Additive Hazards Model with Current Status Data.pdf)
+Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese) [PDF](./pdfs/2022-Zhao-A Variable Selection Method for the Additive Hazards Model with Current Status Data.pdf)
 
 
 ## Experience
