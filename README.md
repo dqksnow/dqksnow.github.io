@@ -1,10 +1,12 @@
 # Qingkai Dong
 
-Hello world!  
+Hello world!
+
 I'm Qingkai Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
 
 - **Email:** qingkai.dong@uconn.edu
 - **GitHub:** [dqksnow](https://github.com/dqksnow)
+- **Google Scholar:** [Qingkai Dong](https://scholar.google.com/citations?user=mojHlF4AAAAJ&hl=zh-CN&oi=ao)
 
 ## Education
 
@@ -16,7 +18,7 @@ I'm Qingkai Dong. This is my personal academic website. Currently I'm a phd stud
 
 ### Zhongnan University of Economics and Law
 - **Master of Science in Mathematical Statistics**
-- **Selected Coursework:** Advanced Probability Theory, Advanced Mathematical Statistics, Survival Analysis, Non-parametric Statistics, High-dimensional Statistics, Machine Learning
+- **Selected Coursework:** Advanced Probability Theory, Advanced Mathematical Statistics, Survival Analysis, Non-parametric Statistics, High-dimensional Statistics
 - **Thesis:** "Variable Selection and Model Averaging Methods of Accelerated Failure Time Models"
 - **Advisor:** [Prof. Hui Zhao](https://hzhaozuel.github.io/)
 - **Location:** Wuhan, China
@@ -39,19 +41,19 @@ Computational Statistics and Data Analysis, 184: 107743.
 <a id="2">[2]</a> 
 Zhao H., Liu B., Dong Q., Zhang X. (2023). 
 The Jackknife Model Averaging of Accelerated Failure Time Model with Current Status Data.
-Acta Mathematicae Applicatae Sinica, 46(3): 313-328.
+Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese)
 
 <a id="3">[3]</a> 
 Zhao H., Dong Q. (2022). 
 A Variable Selection Method for the Additive Hazards Model with Current Status Data.
-Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329.
+Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese)
 
 
 ## Experience
 
 ### R Package Project, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on Subsampling methods in generalized linear models. Assisted Prof. HaiYing Wang in code implementation and developing R package.
+- **Description:** Summarized literature on Subsampling methods in generalized linear models. Assisted Prof. HaiYing Wang in code implementation and developing R packages.
 
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
