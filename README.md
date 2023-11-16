@@ -1,7 +1,7 @@
 # Qingkai Dong
 
 Hello world!  
-I'm Qingkai Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests includes massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
+I'm Qingkai Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
 
 - **Email:** qingkai.dong@uconn.edu
 - **GitHub:** [dqksnow](https://github.com/dqksnow)
@@ -51,7 +51,7 @@ Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329.
 
 ### R Package Project, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on Subsampling methods in generalized linear models. Assisted Prof. HaiYing Wang in code reproduction, conducting simulation experiments, and creating R packages.
+- **Description:** Summarized literature on Subsampling methods in generalized linear models. Assisted Prof. HaiYing Wang in code implementation and developing R package.
 
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
@@ -69,15 +69,6 @@ Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329.
 
 - **Programming Languages:** R, Python, Matlab, C++, Latex
 - **Languages:** English (fluent), Chinese (native)
-
-## Our expertise
-
-- Create UI Frameworks
-  -  We have created the tools that will help you in your next project. From plugins to complex kits, we've got you covered in all areas regarding front-end development.
-- Share Freebies
-  -  Everything that we used to create our products can be downloaded for free under MIT License. People have already trusted and used them in thousands of sites.
-- Power Hackathons
-  -  We've sponsored many hackathons around the world with the tools that they need to make awesome web applications. Our UI tools go hand in hand with startups.
 
 ## Our technologies
 
