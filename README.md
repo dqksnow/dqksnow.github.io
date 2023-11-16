@@ -1,11 +1,12 @@
-[![Header](https://www.creative-tim.com/blog/content/images/size/w1140/2021/08/rebranding-post--1-.jpg "Header")](https://www.creative-tim.com/)
-
 Hi there!  
 I'm Qingkai Dong. This is my personal academic website.
 
 ## About Me
 
-Creating your web design from scratch with dedicated designers can be very expensive. Using our solutions you don't have to worry about design. Save time and money by focusing on the business model.
+Room 341, Philip E. Austin Building,
+215 Glenbrook Road, Unit 4120
+Storrs, CT 06269–4120 USA
+Email: qingkai.dong@uconn.edu
 
 ## Our expertise
 
@@ -22,17 +23,13 @@ Our products are built on top of modern frameworks. Having the coded and the des
 
 <p>
   <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sass.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/figma.jpg" width="67.5px" />
-  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/icon-laravel.jpg" width="67.5px" />
 </p>
 
-## Our products
+## Publications
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
 
 [View All Products](https://www.creative-tim.com/templates)
 
