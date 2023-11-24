@@ -40,10 +40,10 @@ Dong Q., Liu B., Zhao H. (2023).
 Weighted Least Squares Model Averaging for Accelerated Failure Time Models.
 Computational Statistics and Data Analysis, 184: 107743.
 
-<a id="2">[2]</a> 
+<A id="2">[2]</a> 
 Zhao H., Liu B., Dong Q., Zhang X. (2023). 
 The Jackknife Model Averaging of Accelerated Failure Time Model with Current Status Data.
-Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese)
+Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese) [PDF](./pdfs/2023_Zhao_The_Jackknife_Model_Averaging_of_Accelerated_Failure_Time_Model_with_Current_Status_Data.pdf)
 
 <a id="3">[3]</a> 
 Zhao H., Dong Q. (2022). 
