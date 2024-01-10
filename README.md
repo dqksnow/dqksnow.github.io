@@ -4,7 +4,7 @@
 
 Hello world!
 
-I'm Qingkai(pronounced as Ching-kai) Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
+I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
 
 - **Email:** qingkai.dong@uconn.edu
 - **GitHub:** [dqksnow](https://github.com/dqksnow)
@@ -53,9 +53,9 @@ Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chin
 
 ## Experience
 
-### R Package Project, University of Connecticut
+### Research Assistant, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on Subsampling methods in generalized linear models. Assisted Prof. HaiYing Wang in code implementation and developing R packages.
+- **Description:** Summarized literature on Subsampling methods in statistical models. Assisted Prof. HaiYing Wang in code implementation and developing R packages.
 
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
