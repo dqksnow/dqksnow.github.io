@@ -38,17 +38,17 @@ I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website.
 <a id="1">[1]</a> 
 Dong Q., Liu B., Zhao H. (2023). 
 Weighted Least Squares Model Averaging for Accelerated Failure Time Models.
-Computational Statistics and Data Analysis, 184: 107743.
+Computational Statistics and Data Analysis, 184: 107743. [PDF](./pdfs/dong2023weighted.pdf)
 
-<A id="2">[2]</a> 
+<A id="2">[2]</a> zha
 Zhao H., Liu B., Dong Q., Zhang X. (2023). 
 The Jackknife Model Averaging of Accelerated Failure Time Model with Current Status Data.
-Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese) [PDF](./pdfs/2023_Zhao_The_Jackknife_Model_Averaging_of_Accelerated_Failure_Time_Model_with_Current_Status_Data.pdf)
+Acta Mathematicae Applicatae Sinica, 46(3): 313-328.  (in Chinese) [PDF](./pdfs/zhao2023jackknife.pdf)
 
 <a id="3">[3]</a> 
 Zhao H., Dong Q. (2022). 
 A Variable Selection Method for the Additive Hazards Model with Current Status Data.
-Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese) [PDF](./pdfs/2022_Zhao_A_Variable_Selection_Method_for_the_Additive_Hazards_Model_with_Current_Status_Data.pdf)
+Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese) [PDF](./pdfs/hui2022variable.pdf)
 
 
 ## Experience
