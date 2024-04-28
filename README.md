@@ -14,7 +14,7 @@ I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website.
 
 ### University of Connecticut
 - **Ph.D. in Statistics**
-- **Advisor:** [Prof. HaiYing Wang](https://ossifragus.github.io/)
+- **Advisor:** [Prof. HaiYing Wang](https://ossifragus.github.io/) and [Prof. Jun Yan](https://statcomp.org/)
 - **Location:** Storrs, CT, USA
 - **Duration:** Sep 2023 - present
 
@@ -52,6 +52,10 @@ Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chin
 
 
 ## Experience
+
+### Research Assistant, University of Connecticut
+- **Duration:** Mar 2024 - present
+- **Description:** Clinical trail design project.
 
 ### Research Assistant, University of Connecticut
 - **Duration:** Sep 2023 - present
