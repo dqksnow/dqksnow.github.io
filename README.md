@@ -4,17 +4,18 @@
 
 Hello world!
 
-I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website. Currently I'm a phd student in [Statistics in UConn](https://statistics.uconn.edu/). My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
+I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website. Currently I'm a PhD student in [Statistics](https://statistics.uconn.edu/) in UConn. My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
 
 - **Email:** qingkai.dong@uconn.edu
 - **GitHub:** [dqksnow](https://github.com/dqksnow)
-- **Google Scholar:** [Qingkai Dong](https://scholar.google.com/citations?user=mojHlF4AAAAJ&hl=zh-CN&oi=ao)
+- **Google Scholar:** [Qingkai Dong](https://scholar.google.com/citations?user=mojHlF4AAAAJ&hl=zh-CN&oi=sra)
 
 ## Education
 
 ### University of Connecticut
 - **Ph.D. in Statistics**
 - **Advisor:** [Prof. HaiYing Wang](https://ossifragus.github.io/) and [Prof. Jun Yan](https://statcomp.org/)
+- **Selected Coursework:** Linear Model, Applied Statistics, Mathematical Statistics.
 - **Location:** Storrs, CT, USA
 - **Duration:** Sep 2023 - present
 
@@ -54,12 +55,16 @@ Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chin
 ## Experience
 
 ### Research Assistant, University of Connecticut
+- **Duration:** Jul 2024 - Aug 2024
+- **Description:** A project on the impact of social determinants of health(SDOH) and frailty index on accelerated aging in breast cancer patients.
+
+### Research Assistant, University of Connecticut and Servier
 - **Duration:** Mar 2024 - present
-- **Description:** Clinical trail design project.
+- **Description:** Clinical trial design project.
 
 ### Research Assistant, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on Subsampling methods in statistical models. Assisted Prof. HaiYing Wang in code implementation and developing R packages.
+- **Description:** Summarized literature on subsampling methods in statistical models. Developed R package.
 
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
