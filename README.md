@@ -1,6 +1,6 @@
 # Qingkai Dong 董庆凯
 
-![My Image](./images/profile_picture.jpg)
+![My Image](./images/profile_picture.jpeg)
 
 Hello world!!
 
