@@ -4,7 +4,11 @@
 
 Hello world!!
 
-I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website. Currently I'm a PhD student in [Statistics](https://statistics.uconn.edu/) in UConn. My research interests include massive data subsampling, frequentist model averaging and survival data analysis. I'm interested in programming, too.
+I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic
+website. Currently I'm a PhD student in
+[Statistics](https://statistics.uconn.edu/) in UConn. My research interests
+include massive data subsampling, frequentist model averaging and survival data
+analysis. I'm interested in programming, too.
 
 - **Email:** qingkai.dong@uconn.edu
 - **GitHub:** [dqksnow](https://github.com/dqksnow)
@@ -35,6 +39,16 @@ I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic website.
 - **Location:** Qingdao, China
 - **Duration:** Sep 2016 - Jun 2020
 
+## Software
+
+### R package [subsampling](https://cran.r-project.org/web/packages/subsampling/index.html)
+Balancing computational and statistical efficiency, subsampling techniques offer
+a practical solution for handling large-scale data analysis. Subsampling methods
+enhance statistical modeling for massive datasets by efficiently drawing
+representative subsamples from full dataset based on tailored sampling
+probabilities. These probabilities are optimized for specific goals, such as
+minimizing the variance of coefficient estimates or reducing prediction error.
+
 ## Publications
 <a id="1">[1]</a> 
 Dong Q., Liu B., Zhao H. (2023). 
@@ -51,25 +65,34 @@ Zhao H., Dong Q. (2022).
 A Variable Selection Method for the Additive Hazards Model with Current Status Data.
 Journal of Systems Science and Mathematical Sciences, 42(5): 1314-1329. (in Chinese) [PDF](./pdfs/hui2022variable.pdf)
 
-
 ## Experience
-
-### Research Assistant, University of Connecticut
-- **Duration:** Jul 2024 - Aug 2024
-- **Description:** A project on the impact of social determinants of health(SDOH) and frailty index on accelerated aging in breast cancer patients.
 
 ### Research Assistant, University of Connecticut and Servier
 - **Duration:** Mar 2024 - present
-- **Description:** Clinical trial design project.
+- **Description:** A project on the application of machine learning methods in
+adaptive clinical trial design. It includes the development of models for
+predicting survival times of censored individuals and their application to
+improve the accuracy of conditional power estimates for interim analyses.
 
 ### Research Assistant, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on subsampling methods in statistical models. Developed R package.
+- **Description:** Summarized literature on subsampling methods in statistical
+models. Developed an R package which provides optimal subsampling methods for
+various statistical models such as generalized linear models, softmax
+regression, rare event logistic regression and quantile regression model.
+
+### Research Assistant, University of Connecticut
+- **Duration:** Jul 2024 - Aug 2024
+- **Description:** A project about the impact of social determinants of health
+(SDOH) and frailty index on accelerated aging in breast cancer patients. It
+includes pre-processing the data and performing statistical analyses on the All
+of Us platform.
 
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
 - **Duration:** Sep 2020 - Jan 2021
-- **Description:** Assisted in course for 60+ students, graded homework and exams.
+- **Description:** Assisted in the undergraduate course Probability Theory for
+60+ students, graded homework and exams.
 
 ## Awards
 
