@@ -115,34 +115,16 @@ Components of me:
 <details>
 <summary>Reading</summary>
 I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Movies and TV Series</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Traveling</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Sports</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Music</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Life Philosophy</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
-<details>
 
-<details>
 <summary>Softwares</summary>
-I read books like contemporary fiction, history and sociology, and biographies.
 <details>
