@@ -110,3 +110,28 @@ of Us platform.
 
 - **Programming Languages:** R, Python, Matlab, C++, Latex
 - **Languages:** English (fluent), Chinese (native)
+
+This is the main page of my website. Below is the "About Me" section, which can be expanded or collapsed.
+
+<details>
+<summary>About Me</summary>
+
+123
+
+</details>
+
+---
+
+## Other Sections
+
+Feel free to add more collapsible sections like this if needed.
+
+<details>
+<summary>Research Interests</summary>
+
+My research focuses on:
+- Optimal subsampling for statistical models
+- Developing explainable graph-based AI methods
+- Clinical trial design simulations
+
+</details>
