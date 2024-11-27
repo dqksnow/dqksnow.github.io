@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Qingkai Dong 董庆凯
 
 ![My Image](./images/profile_picture.jpeg)
