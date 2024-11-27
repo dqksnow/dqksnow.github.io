@@ -4,7 +4,7 @@
 
 Hello world!!
 
-I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic
+I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal
 website. Currently I'm a PhD student in
 [Statistics](https://statistics.uconn.edu/) in UConn. My research interests
 include massive data subsampling, frequentist model averaging and survival data
@@ -106,27 +106,43 @@ of Us platform.
 - **Programming Languages:** R, Python, Matlab, C++, Latex
 - **Languages:** English (fluent), Chinese (native)
 
-This is the main page of my website. Below is the "About Me" section, which can be expanded or collapsed.
-
-<details>
-<summary>About Me</summary>
-
-123
-
-</details>
-
 ---
 
-## Other Sections
+## About me
 
-Feel free to add more collapsible sections like this if needed.
+Components of me:
 
 <details>
-<summary>Research Interests</summary>
+<summary>Reading</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
 
-My research focuses on:
-- Optimal subsampling for statistical models
-- Developing explainable graph-based AI methods
-- Clinical trial design simulations
+<details>
+<summary>Movies and TV Series</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
 
-</details>
+<details>
+<summary>Traveling</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
+
+<details>
+<summary>Sports</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
+
+<details>
+<summary>Music</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
+
+<details>
+<summary>Life Philosophy</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
+
+<details>
+<summary>Softwares</summary>
+I read books like contemporary fiction, history and sociology, and biographies.
+<details>
