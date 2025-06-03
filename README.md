@@ -4,7 +4,7 @@
 
 Hello world!!
 
-I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal academic
+I'm Qingkai(pronounced as Tsing-kai) Dong. This is my personal
 website. Currently I'm a PhD student in
 [Statistics](https://statistics.uconn.edu/) in UConn. My research interests
 include massive data subsampling, frequentist model averaging and survival data
@@ -19,7 +19,7 @@ analysis. I'm interested in programming, too.
 ### University of Connecticut
 - **Ph.D. in Statistics**
 - **Advisor:** [Prof. HaiYing Wang](https://ossifragus.github.io/) and [Prof. Jun Yan](https://statcomp.org/)
-- **Selected Coursework:** Linear Model, Applied Statistics, Mathematical Statistics.
+- **Selected Coursework:** Advanced Probability, Linear Model, Applied Statistics, Mathematical Statistics.
 - **Location:** Storrs, CT, USA
 - **Duration:** Sep 2023 - present
 
@@ -76,10 +76,10 @@ improve the accuracy of conditional power estimates for interim analyses.
 
 ### Research Assistant, University of Connecticut
 - **Duration:** Sep 2023 - present
-- **Description:** Summarized literature on subsampling methods in statistical
-models. Developed an R package which provides optimal subsampling methods for
+- **Description:** Developed an R package which provides optimal subsampling methods for
 various statistical models such as generalized linear models, softmax
-regression, rare event logistic regression and quantile regression model.
+regression, rare event logistic regression and quantile regression model. Summarized literature on subsampling methods in statistical
+models. 
 
 ### Research Assistant, University of Connecticut
 - **Duration:** Jul 2024 - Aug 2024
@@ -88,6 +88,10 @@ regression, rare event logistic regression and quantile regression model.
 includes pre-processing the data and performing statistical analyses on the All
 of Us platform.
 
+### Research Project, University of Connecticut
+- **Duration:** Mar 2024 - Present
+- **Description:** Applied statistical and clustering methods to analyze fluorescence responses of porphyrinoid sensors to nitroaromatic compounds, optimizing sensor selection for the detection and differentiation of explosives.
+
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
 - **Duration:** Sep 2020 - Jan 2021
@@ -95,7 +99,7 @@ of Us platform.
 60+ students, graded homework and exams.
 
 ## Awards
-
+- Predoc Fellowship, 2025
 - First-class Scholarship, Zhongnan University of Economics and Law, Sep 2022 & Sep 2020
 - Second-class Scholarship, Qingdao University, Sep 2019
 - First Prize, CUMCM (Contemporary Undergraduate Mathematical Contest in Modeling), Oct 2018
@@ -104,4 +108,4 @@ of Us platform.
 ## Skills
 
 - **Programming Languages:** R, Python, Matlab, C++, Latex
-- **Languages:** English (fluent), Chinese (native)
+- **Languages:** English, Chinese
