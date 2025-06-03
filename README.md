@@ -99,7 +99,7 @@ of Us platform.
 60+ students, graded homework and exams.
 
 ## Awards
-- Predoc Fellowship, 2025
+- Predoc Fellowship, University of Connecticut, Jan 2025
 - First-class Scholarship, Zhongnan University of Economics and Law, Sep 2022 & Sep 2020
 - Second-class Scholarship, Qingdao University, Sep 2019
 - First Prize, CUMCM (Contemporary Undergraduate Mathematical Contest in Modeling), Oct 2018
