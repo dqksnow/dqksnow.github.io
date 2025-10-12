@@ -18,7 +18,7 @@ analysis. I'm interested in programming, too.
 
 ### University of Connecticut
 - **Ph.D. in Statistics**
-- **Advisor:** [Prof. HaiYing Wang](https://ossifragus.github.io/) and [Prof. Jun Yan](https://statcomp.org/)
+- **Advisors:** [Prof. HaiYing Wang](https://ossifragus.github.io/) and [Prof. Jun Yan](https://statcomp.org/)
 - **Selected Coursework:** Advanced Probability, Linear Model, Applied Statistics, Mathematical Statistics.
 - **Location:** Storrs, CT, USA
 - **Duration:** Sep 2023 - present
@@ -97,6 +97,16 @@ of Us platform.
 - **Duration:** Sep 2020 - Jan 2021
 - **Description:** Assisted in the undergraduate course Probability Theory for
 60+ students, graded homework and exams.
+
+
+## Academic Presentations
+- **New England Rare Disease Statistics (NERDS) Workshop 2025**, Boston, MA — Poster presentation.  Oct 2025
+- **Dahshu Data Science Symposium 2025** — Storrs, CT - Poster presentation Oct 2025
+
+
+## Academic Service
+- **Reviewer**, *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
+
 
 ## Awards
 - Predoc Fellowship, University of Connecticut, Jan 2025
