@@ -35,7 +35,7 @@ analysis. I'm interested in programming, too.
 - **Bachelor of Science in Applied Statistics**
 - **Selected Coursework:** Real Analysis, Advanced Algebra, Probability Theory, Mathematical Statistics, Numerical Optimization, Regression Analysis, Matlab, C++
 - **Thesis:** "Automatic Marking System based on Convolutional Neural Networks"
-- **Advisor:** [Dr. Yang Yu](https://maths.qdu.edu.cn/info/1222/1981.htm)
+- **Thesis Advisor:** [Dr. Yang Yu](https://maths.qdu.edu.cn/info/1222/1981.htm)
 - **Location:** Qingdao, China
 - **Duration:** Sep 2016 - Jun 2020
 
@@ -105,7 +105,7 @@ of Us platform.
 
 
 ## Academic Service
-- **Reviewer**, *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
+- **Reviewer:**, *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
 
 
 ## Awards
