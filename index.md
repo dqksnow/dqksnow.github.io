@@ -122,7 +122,4 @@ of Us platform.
 
 ## Visitor Map
 
-<script type="text/javascript" id="mapmyvisitors"
-  src="//mapmyvisitors.com/map.js?d=TJWI1sIpZv3dybrAgXVGv3veN1no-mOTjL57DfQSGiY&cl=ffffff&w=a">
-</script>
-
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=100&t=n&d=TJWI1sIpZv3dybrAgXVGv3veN1no-mOTjL57DfQSGiY&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
