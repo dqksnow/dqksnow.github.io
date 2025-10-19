@@ -100,12 +100,12 @@ of Us platform.
 
 
 ## Academic Presentations
-- **New England Rare Disease Statistics (NERDS) Workshop 2025**, Boston, MA — Poster presentation.  Oct 2025
-- **Dahshu Data Science Symposium 2025** — Storrs, CT - Poster presentation Oct 2025
+- **New England Rare Disease Statistics (NERDS) Workshop 2025**, Boston, MA — Poster presentation. Oct 2025
+- **Dahshu Data Science Symposium 2025** — Storrs, CT - Poster presentation. Oct 2025
 
 
 ## Academic Service
-- **Reviewer:**, *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
+- **Reviewer:** *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
 
 
 ## Awards
@@ -122,4 +122,4 @@ of Us platform.
 
 ## Visitor Map
 
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=100&t=n&d=TJWI1sIpZv3dybrAgXVGv3veN1no-mOTjL57DfQSGiY&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=n&d=TJWI1sIpZv3dybrAgXVGv3veN1no-mOTjL57DfQSGiY'></script>
