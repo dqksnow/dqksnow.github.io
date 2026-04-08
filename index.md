@@ -92,6 +92,11 @@ of Us platform.
 - **Duration:** Mar 2024 - Present
 - **Description:** Applied statistical and clustering methods to analyze fluorescence responses of porphyrinoid sensors to nitroaromatic compounds, optimizing sensor selection for the detection and differentiation of explosives.
 
+### Teaching Assistant (Principal Instructor), University of Connecticut
+- **Course Title:** STAT3675Q Statistical Computing
+- **Duration:** Jan 2026 - May 2026
+- **Description:** Served as principal instructor for the undergraduate course Statistical Computing, covering statistical computing methods in R, basic R programming, data manipulation, and model fitting pipelines including linear and generalized linear models.
+
 ### Teaching Assistant, Zhongnan University of Economics and Law
 - **Course Title:** Probability Theory
 - **Duration:** Sep 2020 - Jan 2021
@@ -105,7 +110,7 @@ of Us platform.
 
 
 ## Academic Service
-- **Reviewer:** *Sankhya B*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
+- **Reviewer:** *Sankhya B*, *Statistical Papers*, *Computational Statistics and Data Analysis*, *Journal of Systems Science and Mathematical Sciences*(Chinese)
 
 
 ## Awards
