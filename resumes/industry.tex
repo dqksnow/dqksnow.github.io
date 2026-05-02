@@ -4,7 +4,28 @@
 \usepackage[left=0.75in,right=0.75in,top=0.9in,bottom=0.9in]{geometry}
 
 % --- Lists / spacing control ---
-\usepackage{enumitem}
+\let\olditemize\itemize
+\let\endolditemize\enditemize
+\makeatletter
+\renewenvironment{itemize}[1][]{%
+  \olditemize
+  \setlength{\itemsep}{0pt}%
+  \setlength{\topsep}{0pt}%
+  \setlength{\parsep}{0pt}%
+  \setlength{\partopsep}{0pt}%
+  \def\resume@options{#1}%
+  \in@{label={}}{\resume@options}%
+  \ifin@
+    \renewcommand{\labelitemi}{}%
+    \renewcommand{\labelitemii}{}%
+  \fi
+  \in@{label=\textbullet}{\resume@options}%
+  \ifin@
+    \renewcommand{\labelitemi}{\textbullet}%
+    \renewcommand{\labelitemii}{\textbullet}%
+  \fi
+}{\endolditemize}
+\makeatother
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \renewcommand{\baselinestretch}{0.92}
