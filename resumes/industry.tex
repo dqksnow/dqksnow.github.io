@@ -4,34 +4,12 @@
 \usepackage[left=0.75in,right=0.75in,top=0.9in,bottom=0.9in]{geometry}
 
 % --- Lists / spacing control ---
-\let\olditemize\itemize
-\let\endolditemize\enditemize
-\makeatletter
-\renewenvironment{itemize}[1][]{%
-  \olditemize
-  \setlength{\itemsep}{0pt}%
-  \setlength{\topsep}{0pt}%
-  \setlength{\parsep}{0pt}%
-  \setlength{\partopsep}{0pt}%
-  \def\resume@options{#1}%
-  \in@{label={}}{\resume@options}%
-  \ifin@
-    \renewcommand{\labelitemi}{}%
-    \renewcommand{\labelitemii}{}%
-  \fi
-  \in@{label=\textbullet}{\resume@options}%
-  \ifin@
-    \renewcommand{\labelitemi}{\textbullet}%
-    \renewcommand{\labelitemii}{\textbullet}%
-  \fi
-}{\endolditemize}
-\makeatother
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \renewcommand{\baselinestretch}{0.92}
 
-% Major-item spacing: add space between top-level items, but keep bullets tight
-\newcommand{\majoritemsep}{\vspace{1pt}}
+% Major-item spacing: keep sections readable without making the resume feel sparse
+\newcommand{\majoritemsep}{\vspace{4pt}}
 
 % heading
 \newcommand{\resheading}[1]{
@@ -48,6 +26,36 @@
   #1 & #2\\%
   \end{tabular*}%
 }
+
+\newenvironment{reslist}[1][0pt]{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{0pt}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\labelwidth}{0pt}%
+    \setlength{\labelsep}{0pt}%
+    \setlength{\itemindent}{0pt}%
+    \setlength{\listparindent}{0pt}%
+    \setlength{\itemsep}{#1}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+  }%
+}{\end{list}}
+
+\newenvironment{bulletlist}[1][0pt]{%
+  \begin{list}{\textbullet}{%
+    \setlength{\leftmargin}{14pt}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\labelwidth}{8pt}%
+    \setlength{\labelsep}{6pt}%
+    \setlength{\itemindent}{0pt}%
+    \setlength{\listparindent}{0pt}%
+    \setlength{\itemsep}{#1}%
+    \setlength{\topsep}{2pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+  }%
+}{\end{list}}
 
 \begin{document}
 
@@ -93,124 +101,128 @@
 \resheading{Research Experience}
 
 % Use itemsep=0pt to avoid extra spacing between bullets
-\begin{itemize}[left=0pt,label={},itemsep=6pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+\begin{reslist}[6pt]
 
   \item \textbf{Research Assistant} (Academia--Industry Collaboration) \hfill Mar 2024 -- Dec 2025 \\
   Servier Pharmaceuticals \& University of Connecticut
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[2pt]
     \item Coauthored a manuscript introducing a predictive-modeling--assisted interim analysis framework for censored time-to-event endpoints; manuscript in preparation for journal submission.
     \item Developed a covariate-informed approach that augments interim data by predicting event times for censored participants, improving estimation of conditional power and interim decision-making. Implemented in PyTorch.
     \item Proposed evaluation metrics for conditional power forecast accuracy and futility decision quality; conducted extensive simulations to characterize when performance improves or degrades under varied censoring, covariate informativeness/type and prediction range.
-  \end{itemize}
+  \end{bulletlist}
 
   \item \textbf{Research Assistant} (Statistical Methodology) \hfill Aug 2023 -- Present \\
   University of Connecticut
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[2pt]
     \item Coauthored a methodology paper on rare-feature-aware subsampling for regression models; manuscript in preparation for journal submission.
     \item Developed theory showing that estimation efficiency for rare binary covariate coefficients is driven by the limited number of rare observations, explaining numerical instability and slow convergence.
     \item Introduced balanced subsampling methods that quantifies rarity to ensure adequate representation of rare features without pilot sampling, improving robustness and efficiency.
     \item Implemented the methods in the subsampling R package; validated performance via theoretical results, simulation studies, and real-data applications; produced documentation and reproducible examples.
-  \end{itemize}
+  \end{bulletlist}
 
   \item \textbf{Research Assistant} (Real-World Health Data) \hfill Jul 2024 -- Aug 2024 \\
   University of Connecticut
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[2pt]
     \item Conducted data preprocessing and statistical analyses on All of Us datasets to study associations among social determinants of health, frailty index, and accelerated aging in breast cancer patients.
     \item Delivered analysis-ready datasets and reproducible Python scripts; performed exploratory and confirmatory analyses under missingness and data-quality constraints.
-  \end{itemize}
+  \end{bulletlist}
 
   \item \textbf{Cross-Disciplinary Collaboration} (Chemical Sensor Data Analytics) \hfill Mar 2024 -- May 2024 \\
   University of Connecticut
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[2pt]
     \item Analyzed fluorescence response data from porphyrinoid sensors; applied clustering and statistical analysis to improve compound differentiation and sensor selection.
     \item Produced interpretable summaries and visualizations in R to support experimental decision-making.
-  \end{itemize}
+  \end{bulletlist}
 
   \item \textbf{Cross-Disciplinary Collaboration} (LLM Explainability) \hfill 2025 -- Present \\
   University of Connecticut \& collaborators
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[2pt]
     \item Coauthored a survey manuscript on time series explainability emphasizing LLM-enabled semantic explanations; under review at a top survey journal; released an accompanying benchmark repository on GitHub.
+  \end{bulletlist}
 
-  \end{itemize}
-
-\end{itemize}
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Software
 % =======================
 \resheading{Software}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+\begin{reslist}[2pt]
   \item \textbf{R package subsampling}: A statistical computing toolkit for optimal subsampling in big-data modeling. Supports GLMs, quantile regression, softmax regression and rare event/rare feature regimes.
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=0pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+  \begin{bulletlist}[0pt]
     \item Implemented optimized sampling probability computation targeting variance reduction and prediction accuracy, including practical routines for pilot sampling and two-step designs.
     \item Engineering focus: modular API, documentation/vignettes, reproducible examples, and scalable computation patterns.
-  \end{itemize}
-\end{itemize}
+  \end{bulletlist}
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Teaching Experience
 % =======================
 \resheading{Teaching Experience}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+\begin{reslist}[2pt]
   \item \textbf{Instructor} \hfill Jan 2026 -- May 2026 \\
   University of Connecticut
-  \begin{itemize}[left=12pt,label=\textbullet,itemsep=0pt,topsep=2pt,parsep=0pt,partopsep=0pt]
-\item \textbf{STAT 3675Q:} Statistical Computing --- Comprehensive statistical computing in R/RStudio: data acquisition and management, visualization, reproducible workflows, and core analyses including linear regression/ANOVA, nonparametric inference, GLMs, categorical data analysis, time series, and classification.
-  \end{itemize}
-\end{itemize}
+  \begin{bulletlist}[0pt]
+\item \textbf{STAT 3675Q:} Statistical Computing --- comprehensive statistical computing in R/RStudio, including data acquisition and management, visualization, reproducible workflows, and core analyses in regression, nonparametric inference, GLMs, categorical data analysis, time series, and classification.
+  \end{bulletlist}
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Academic Presentations
 % =======================
 \resheading{Academic Presentations}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
-   \item Poster Presentation - New England Rare Disease Statistics (NERDS) Workshop, Boston, MA \hfill 2025
-   \item Poster Presentation - Dahshu Data Science Symposium, Storrs, CT \hfill 2025
-\end{itemize}
+\begin{reslist}[2pt]
+   \item \textbf{Invited Talk} - New England Statistics Symposium (NESS) \hfill 2026
+   \item \textbf{Poster Presentation} - New England Statistics Symposium (NESS) \hfill 2026
+   \item \textbf{Poster Presentation} - The Design and Analysis of Experiments (DAE) \hfill 2026
+   \item \textbf{Poster Presentation} - New England Rare Disease Statistics (NERDS) Workshop, Boston, MA \hfill 2025
+   \item \textbf{Poster Presentation} - Dahshu Data Science Symposium, Storrs, CT \hfill 2025
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Academic Service
 % =======================
 \resheading{Academic Service}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
-   \item \textbf{Journal Reviewer:} \textit{Statistical Papers}; \textit{Sankhya B}; \textit{Journal of Systems Science and Mathematical Sciences (Chinese)}
-\end{itemize}
+\begin{reslist}[2pt]
+   \item \textbf{Journal Reviewer:} \textit{Computational Statistics and Data Analysis}; \textit{Statistical Papers}; \textit{Sankhya B}; \textit{Journal of Systems Science and Mathematical Sciences (Chinese)}
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Awards
 % =======================
 \resheading{Awards}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
-   \item Predoc Fellowship - University of Connecticut \hfill 2025
-   \item First-class Scholarship - Zhongnan University of Economics and Law \hfill 2020, 2022
-\end{itemize}
+\begin{reslist}[2pt]
+   \item \textbf{New England Statistics Symposium (NESS) Poster Award} \hfill 2026
+   \item \textbf{ICSA Applied Statistics Symposium Student Paper Award} \hfill 2026
+   \item \textbf{Predoc Fellowship} - University of Connecticut \hfill 2025
+   \item \textbf{First-class Scholarship} - Zhongnan University of Economics and Law \hfill 2020, 2022
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Technical Skills (second last)
 % =======================
 \resheading{Technical Skills}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+\begin{reslist}[2pt]
   \item \textbf{Statistical Methods:} survival analysis; interim analysis \& conditional power; design simulation; big-data subsampling; model averaging; variable selection
   \item \textbf{Programming:} R (package development), Python (machine learning / deep learning), Git, LaTeX
-\end{itemize}
+\end{reslist}
 \majoritemsep
 
 % =======================
 % Selected Publications (last)
 % =======================
 \resheading{Selected Publications}
-\begin{itemize}[left=0pt,label={},itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt]
+\begin{reslist}[2pt]
   \item \textbf{Dong Q}, Liu B, Zhao H. Weighted Least Squares Model Averaging for Accelerated Failure Time Models. \emph{Computational Statistics and Data Analysis}, 2023.
   \item Zhao H, \textbf{Dong Q}. Variable Selection for Additive Hazards Model with Current Status Data. \emph{Journal of Systems Science and Mathematical Sciences}, 2022.
   \item Zhao H, Liu B, \textbf{Dong Q}. Jackknife Model Averaging of AFT Model with Current Status Data. \emph{Acta Mathematicae Applicatae Sinica}, 2023.
   \item Chen Z, Lucchesi G, \textbf{Dong Q}, Zheng X, Song D, Wen Q, Cheng W, Ni J, Luo D. From Signals to Semantics: A Survey on Time Series Explainability through a Human-Cognitive Lens. Manuscript under review at \emph{ACM Computing Surveys}, 2025.
-\end{itemize}
+\end{reslist}
 
 \end{document}
  
