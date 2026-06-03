@@ -297,7 +297,24 @@
     <footer class="footer">
       <div class="site-shell">
         <p>Qingkai Dong • Statistics PhD student at the University of Connecticut</p>
+        <p>Last modified: <time id="last-modified-date"></time></p>
       </div>
     </footer>
+    <script>
+      (function() {
+        const target = document.getElementById("last-modified-date");
+        const raw = document.lastModified;
+        if (!target || !raw) return;
+
+        const date = new Date(raw);
+        if (Number.isNaN(date.getTime())) return;
+
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+        const year = date.getFullYear();
+        target.dateTime = date.toISOString();
+        target.textContent = month + "/" + day + "/" + year + ".";
+      })();
+    </script>
   </body>
 </html>
