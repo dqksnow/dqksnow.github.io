@@ -30,7 +30,7 @@ body {
   font-size: 15px;
   color: var(--text);
   background: var(--bg);
-  line-height: 1.65;
+  line-height: 1.45;
 }
 
 a {
@@ -108,7 +108,7 @@ img {
 }
 
 .hero {
-  padding: 4.75rem 0 3rem;
+  padding: 3rem 0 2rem;
 }
 
 .hero-grid {
@@ -128,9 +128,13 @@ img {
 
 .hero-lead {
   max-width: 40ch;
-  margin: 1.3rem 0 0;
+  margin: 1rem 0 0;
   font-size: 1rem;
   color: #2f3834;
+}
+
+.job-market {
+  color: #1d4ed8;
 }
 
 .hero-actions {
@@ -209,14 +213,14 @@ img {
 }
 
 .section {
-  padding: 3rem 0;
+  padding: 1.75rem 0;
   border-top: 1px solid rgba(215, 208, 196, 0.95);
 }
 
 .section-grid {
   display: grid;
   grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-  gap: 2rem;
+  gap: 1rem 2rem;
 }
 
 .section-title {
@@ -226,7 +230,7 @@ img {
 }
 
 .section-note {
-  margin-top: 0.6rem;
+  margin: 0.4rem 0 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -236,7 +240,11 @@ img {
 .link-list,
 .publication-list {
   display: grid;
-  gap: 1.7rem;
+  gap: 1rem;
+}
+
+.section p {
+  margin: 0.4rem 0 0;
 }
 
 .research-list article,
@@ -249,7 +257,7 @@ img {
 .research-list article,
 .timeline article {
   border-top: 1px solid rgba(215, 208, 196, 0.7);
-  padding-top: 1rem;
+  padding-top: 0.7rem;
 }
 
 .research-list article:first-child,
@@ -264,18 +272,18 @@ img {
   font-size: 0.86rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.25rem;
 }
 
 .item-title {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.3rem;
   font-size: 1.1rem;
 }
 
 .item-meta {
   color: var(--muted);
   font-size: 0.9rem;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.35rem;
 }
 
 .compact-list {
@@ -284,12 +292,12 @@ img {
 }
 
 .compact-list li + li {
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .publication-item {
   border-top: 1px solid var(--line);
-  padding-top: 1rem;
+  padding-top: 0.7rem;
 }
 
 .publication-item:first-child {
@@ -324,7 +332,7 @@ img {
 }
 
 .footer {
-  padding: 2rem 0 3rem;
+  padding: 1.5rem 0 2rem;
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -351,7 +359,7 @@ img {
   }
 
   .section {
-    padding: 2.25rem 0;
+    padding: 1.5rem 0;
   }
 }
 
@@ -367,7 +375,7 @@ img {
   }
 
   .hero {
-    padding-top: 3.5rem;
+    padding-top: 2rem;
   }
 
   .hero-lead {
