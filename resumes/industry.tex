@@ -2,6 +2,7 @@
 
 % --- Layout (slightly smaller left/right margins) ---
 \usepackage[left=0.75in,right=0.75in,top=0.9in,bottom=0.9in]{geometry}
+\usepackage[hidelinks,bookmarks=false]{hyperref}
 
 % --- Lists / spacing control ---
 \setlength{\parindent}{0pt}
@@ -66,40 +67,54 @@
     {\LARGE \textbf{Qingkai Dong}} \\
     \vspace{2pt}
     \begin{tabular}{ll}
-      Email: qingkai.dong@uconn.edu &
-      Website: dqksnow.github.io \\
+      Email: \href{mailto:qingkai.dong@uconn.edu}{qingkai.dong@uconn.edu} &
+      Website: \href{https://dqksnow.github.io}{dqksnow.github.io} \\
       Phone: +1 (860) 931-9075 &
       Location: Storrs, CT, USA
     \end{tabular}
 \end{center}
 
 % =======================
-% Education (layout matched to screenshot)
+% Professional Summary
+% =======================
+\resheading{Professional Summary}
+Statistics Ph.D. student, expected to graduate in May 2027, with Servier Pharmaceuticals experience in individual patient data reconstruction and deep learning methods for interim analysis. Develops rare-feature subsampling methods, simulation studies, and reproducible software in R and Python.
+\majoritemsep
+
+% =======================
+% Education
 % =======================
 \resheading{Education}
+\noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
 % PhD
-\lrrow{\textbf{University of Connecticut}}{Aug 2023 -- Expected 2027}
-\lrrow{Ph.D. in Statistics}{Storrs, CT, USA}
-\lrrow{Advisors: Prof. HaiYing Wang and Prof. Jun Yan}{Passed the Ph.D. Qualifying Exam}
-\majoritemsep
+\textbf{University of Connecticut} & Aug 2023 -- Expected May 2027 \\
+Ph.D. in Statistics & Storrs, CT, USA \\
+Advisors: Prof. HaiYing Wang and Prof. Jun Yan & \\[4pt]
 
 % MS
-\lrrow{\textbf{Zhongnan University of Economics and Law}}{Sep 2020 -- May 2023}
-\lrrow{MS in Mathematical Statistics}{Wuhan, China}
-\lrrow{Advisor: Prof. Hui Zhao}{}
-\lrrow{Thesis: Model Averaging and Variable Selection for Accelerated Failure Time Models}{}
-\majoritemsep
+\textbf{Zhongnan University of Economics and Law} & Sep 2020 -- May 2023 \\
+MS in Mathematical Statistics & Wuhan, China \\[4pt]
 
 % BS
-\lrrow{\textbf{Qingdao University}}{Sep 2016 -- May 2020}
-\lrrow{BS in Applied Statistics}{Qingdao, China}
-\lrrow{Thesis: Automatic Grading System Based on Convolutional Neural Networks}{}
+\textbf{Qingdao University} & Sep 2016 -- May 2020 \\
+BS in Applied Statistics & Qingdao, China \\
+\end{tabular*}\par
 \majoritemsep
 
 % =======================
-% Research Experience
+% Technical Skills
 % =======================
-\resheading{Research Experience}
+\resheading{Technical Skills}
+\begin{reslist}[2pt]
+  \item \textbf{Statistical Methods:} survival analysis; interim analysis \& conditional power; design simulation; big-data subsampling; model averaging; variable selection
+  \item \textbf{Programming:} R (package development), Python (machine learning / deep learning), SAS, Git, LaTeX
+\end{reslist}
+\majoritemsep
+
+% =======================
+% Industry and Research Experience
+% =======================
+\resheading{Industry and Research Experience}
 
 % Use itemsep=0pt to avoid extra spacing between bullets
 \begin{reslist}[6pt]
@@ -107,45 +122,47 @@
   \item \textbf{Global Biometrics Intern} \hfill Jun 2026 -- Aug 2026 \\
   Servier Pharmaceuticals
   \begin{bulletlist}[2pt]
-    \item Designed and implemented a modular workflow to reconstruct synthetic individual participant data from published Kaplan--Meier curves and summary statistics using target-matching loss functions.
-    \item Validated close reproduction of reported survival metrics and recovery of unreported quantities through simulation studies; applied the workflow to internal data.
+    \item Built a modular workflow to reconstruct synthetic individual patient data from published Kaplan--Meier curves and summary statistics using target-matching loss functions.
+    \item Demonstrated close agreement with reported survival metrics and evaluated accuracy for additional survival quantities in simulation studies; applied the workflow to internal data.
   \end{bulletlist}
 
   \item \textbf{Research Assistant} (Academia--Industry Collaboration) \hfill Mar 2024 -- Dec 2025 \\
   Servier Pharmaceuticals \& University of Connecticut
   \begin{bulletlist}[2pt]
-    \item Coauthored a manuscript introducing a predictive-modeling--assisted interim analysis framework for censored time-to-event endpoints; manuscript under revision.
-    \item Developed a covariate-informed approach that augments interim data by predicting event times for censored participants, improving estimation of conditional power and interim decision-making. Implemented in PyTorch.
-    \item Proposed evaluation metrics for conditional power forecast accuracy and futility decision quality; conducted extensive simulations to characterize when performance improves or degrades under varied censoring, covariate informativeness/type and prediction range.
+    \item Developed and implemented a covariate-informed deep learning framework to predict event times for censored participants and augment interim survival data for conditional-power estimation and futility decisions.
+    \item Designed evaluation metrics for conditional-power forecast accuracy and futility decision quality. Conducted simulation studies to characterize when performance improves or degrades under varied censoring, covariate informativeness/type, and prediction range.
+    \item Co-first-authored the methodology manuscript, under revision at \emph{Statistics in Medicine}.
   \end{bulletlist}
 
   \item \textbf{Research Assistant} (Statistical Methodology) \hfill Aug 2023 -- Present \\
   University of Connecticut
   \begin{bulletlist}[2pt]
-    \item Coauthored a methodology paper on rare-feature-aware subsampling for regression models; manuscript under review.
-    \item Developed theory showing that estimation efficiency for rare binary covariate coefficients is driven by the limited number of rare observations, explaining numerical instability and slow convergence.
-    \item Introduced balanced subsampling methods that quantify rarity to ensure adequate representation of rare features, improving robustness and efficiency.
-    \item Implemented the methods in the subsampling R package; validated performance via theoretical results, simulation studies, and real-data applications; produced documentation and reproducible examples.
+    \item Developed rare-feature-aware subsampling methods for regression to preserve representation of rare binary covariates. Implemented the methods in the subsampling R package.
+    \item Established theory linking the efficiency of rare-covariate coefficient estimation to the number of rare observations, explaining numerical instability and slow convergence.
+    \item Evaluated the methods through simulation studies and applications to rare disease data. First-authored a methodology manuscript (under review at \emph{JASA}).
   \end{bulletlist}
 
-  \item \textbf{Research Assistant} (Social Determinants of Health, Frailty, and Accelerated Aging in Breast Cancer Survivors) \hfill Jul 2024 -- Aug 2024 \\
+  \item \textbf{Research Assistant} (Breast Cancer Survivorship) \hfill Jul 2024 -- Aug 2024 \\
   Departments of Statistics and Human Development and Family Sciences, University of Connecticut
   \begin{bulletlist}[2pt]
-    \item Helped frame and prepare a study examining social determinants of health, frailty, and accelerated aging among breast cancer survivors.
-    \item Conducted data retrieval, cleaning, and integration across All of Us EHR, survey, and physical-measurement data to support subsequent statistical modeling.
+    \item Retrieved, cleaned, and integrated All of Us EHR, survey, and physical-measurement data to prepare inputs for subsequent statistical modeling.
+    \item Contributed to study framing on social determinants of health, frailty, and accelerated aging among breast cancer survivors.
   \end{bulletlist}
 
+  \begin{samepage}
   \item \textbf{Cross-Disciplinary Collaboration} (Chemical Sensor Data Analytics) \hfill Mar 2024 -- May 2024 \\
   Departments of Statistics and Chemistry, University of Connecticut
   \begin{bulletlist}[2pt]
-    \item Analyzed fluorescence response data from porphyrinoid sensors; applied clustering and statistical analysis to improve compound differentiation and sensor selection.
-    \item Produced interpretable summaries and visualizations in R to support experimental decision-making.
+    \item Applied clustering and statistical analysis to porphyrinoid-sensor fluorescence data to assess compound differentiation and inform sensor selection.
+    \item Produced interpretable summaries and R visualizations to support collaborators' experimental decisions.
   \end{bulletlist}
+  \end{samepage}
 
   \item \textbf{Cross-Disciplinary Collaboration} (Large Language Model Explainability) \hfill 2025 -- Present \\
   University of Connecticut \& collaborators
   \begin{bulletlist}[2pt]
-    \item Coauthored a survey manuscript on time series explainability emphasizing LLM-enabled semantic explanations; under review at a top survey journal; released an accompanying benchmark repository on GitHub.
+    \item Curated benchmarks and released an accompanying GitHub repository for a survey of time series explainability and LLM-enabled semantic explanations.
+    \item Coauthored the survey manuscript, currently under review at \emph{ACM Computing Surveys}.
   \end{bulletlist}
 
 \end{reslist}
@@ -156,36 +173,48 @@
 % =======================
 \resheading{Software}
 \begin{reslist}[2pt]
-  \item \textbf{R package subsampling}: A statistical computing toolkit for optimal subsampling in big-data modeling. Supports GLMs, quantile regression, softmax regression and rare event/rare feature regimes.
+  \item \textbf{R package subsampling (\href{https://cran.r-project.org/web/packages/subsampling/index.html}{CRAN})}
   \begin{bulletlist}[0pt]
-    \item Implemented optimized sampling probability computation targeting variance reduction and prediction accuracy, including practical routines for pilot sampling and two-step designs.
-    \item Engineering focus: modular API, documentation/vignettes, reproducible examples, and scalable computation patterns.
+    \item Implemented sampling-probability computation, pilot sampling, and two-step designs for GLMs, quantile regression, softmax regression, and rare-event/rare-feature settings.
+    \item Delivered a modular R API with documentation, vignettes, and reproducible examples.
   \end{bulletlist}
 \end{reslist}
+\majoritemsep
+
+% =======================
+% Selected Papers
+% =======================
+\noindent\begin{minipage}[t]{\textwidth}
+\resheading{Selected Papers}
+{\small
+\begin{reslist}[0pt]
+  \item \textbf{Dong Q}, Yan J, Zhang Q, Wang H. Rare-feature-adaptive subsampling for big data regression. Under review at \emph{JASA}.
+  \item Wang D$^{\dagger}$, \textbf{Dong Q}$^{\dagger}$, Zhang Q, Hu Q,
+  Wang H. Random Subsampling: Inferential Targets, Estimators, and
+  Sampling Procedures. \emph{Under review}. $^{\dagger}$Equal contribution.
+  \item \textbf{Dong Q}$^{\dagger}$, Man A$^{\dagger}$, Hua Z, Teng Z, Wang H, Yan J. Predictive-Modeling--Assisted Interim Decision-Making in Adaptive Trials with Censored Survival Outcomes. Under revision at \emph{Statistics in Medicine}. $^{\dagger}$Equal contribution.
+  \item \textbf{Dong Q}, Liu B, Zhao H. Weighted Least Squares Model Averaging for Accelerated Failure Time Models. \emph{Computational Statistics and Data Analysis}, 2023.
+  \item Zhao H, \textbf{Dong Q}. Variable Selection for Additive Hazards Model with Current Status Data. \emph{Journal of Systems Science and Mathematical Sciences}, 2022.
+  \item Zhao H, Liu B, \textbf{Dong Q}. Jackknife Model Averaging of AFT Model with Current Status Data. \emph{Acta Mathematicae Applicatae Sinica}, 2023.
+  \item Chen Z, Lucchesi G, \textbf{Dong Q}, Zheng X, Song D, Wen Q, Cheng W, Ni J, Luo D. From Signals to Semantics: A Survey on Time Series Explainability through a Human-Cognitive Lens. Manuscript under review at \emph{ACM Computing Surveys}, 2025.
+\end{reslist}
+}
+\end{minipage}\par
 \majoritemsep
 
 % =======================
 % Teaching Experience
 % =======================
 \resheading{Teaching Experience}
+\textbf{University of Connecticut}
 \begin{reslist}[2pt]
-  \item \textbf{Principal Instructor} \hfill Spring 2027 \\
-  University of Connecticut
-  \begin{bulletlist}[0pt]
-    \item \textbf{STAT 3255: Introduction to Data Science}.
-  \end{bulletlist}
+  \item \textbf{Principal Instructor} (Upcoming Appointment) \hfill Spring 2027 \\
+  Scheduled to teach STAT 3255: Introduction to Data Science.
   \item \textbf{Teaching Assistant} \hfill Sep 2026 -- Dec 2026 \\
-  University of Connecticut
-  \begin{bulletlist}[0pt]
-    \item \textbf{STAT 1100Q: Elementary Concepts of Statistics}.
-    \item \textbf{STAT 3445: Introduction to Mathematical Statistics II}.
-  \end{bulletlist}
+  Supporting STAT 1100Q: Elementary Concepts of Statistics and STAT 3445: Introduction to Mathematical Statistics II.
   \item \textbf{Principal Instructor} \hfill Jan 2026 -- May 2026 \\
-  University of Connecticut
-  \begin{bulletlist}[0pt]
-\item \textbf{STAT 3675Q: Statistical Computing.} Independently taught three 50-minute sections serving approximately 20 students; designed course slides and R-based homework assignments, coordinated student presentations, and graded midterm and final examinations.
-\item Delivered a comprehensive R/RStudio curriculum covering data acquisition and management, visualization, reproducible workflows, regression, nonparametric inference, GLMs, categorical data analysis, time series, and classification.
-  \end{bulletlist}
+  STAT 3675Q: Statistical Computing. \\
+  Taught R/RStudio for data management, visualization, reproducible analysis, and statistical modeling.
 \end{reslist}
 \majoritemsep
 
@@ -194,19 +223,8 @@
 % =======================
 \resheading{Academic Presentations}
 \begin{reslist}[2pt]
-   \item \textbf{Poster Presentation} \hfill Oct 2026 \\
-   New England Rare Disease Statistics Workshop (NERDS), Boston, MA
-   \item \textbf{Invited Talk} - SILVER Online Lab Meeting
-   \hfill Oct 2026 \\
-   Department of Epidemiology \& Public Health,\\
-   University of Maryland School of Medicine
-   \item \textbf{Invited Talk} - Joint Statistical Meetings (JSM) \hfill 2026
-   \item \textbf{Invited Talk} - New England Statistics Symposium (NESS) \hfill 2026
-   \item \textbf{Invited Talk} - ICSA Applied Statistics Symposium \hfill 2026
-   \item \textbf{Poster Presentation} - New England Statistics Symposium (NESS) \hfill 2026
-   \item \textbf{Poster Presentation} - The Design and Analysis of Experiments (DAE) \hfill 2026
-   \item \textbf{Poster Presentation} - New England Rare Disease Statistics Workshop (NERDS), Boston, MA \hfill 2025
-   \item \textbf{Poster Presentation} - Dahshu Data Science Symposium, Storrs, CT \hfill 2025
+   \item \textbf{Invited talks (2026):} Joint Statistical Meetings (JSM); New England Statistics Symposium (NESS); ICSA Applied Statistics Symposium; SILVER Online Lab Meeting, Department of Epidemiology \& Public Health, University of Maryland School of Medicine.
+   \item \textbf{Posters:} New England Rare Disease Statistics Workshop (NERDS, 2025, Oct 2026); NESS (2026); The Design and Analysis of Experiments (DAE, 2026); Dahshu Data Science Symposium (2025).
 \end{reslist}
 \majoritemsep
 
@@ -231,35 +249,6 @@
    \item \textbf{First-class Scholarship} - Zhongnan University of Economics and Law \hfill 2020, 2022
 \end{reslist}
 \majoritemsep
-
-% =======================
-% Technical Skills (second last)
-% =======================
-\resheading{Technical Skills}
-\begin{reslist}[2pt]
-  \item \textbf{Statistical Methods:} survival analysis; interim analysis \& conditional power; design simulation; big-data subsampling; model averaging; variable selection
-  \item \textbf{Programming:} R (package development), Python (machine learning / deep learning), Git, LaTeX
-\end{reslist}
-\majoritemsep
-
-% =======================
-% Selected Papers (last)
-% =======================
-\newpage
-\resheading{Selected Papers}
-{\small
-\begin{reslist}[0pt]
-  \item \textbf{Dong Q}, Yan J, Zhang Q, Wang H. Rare-feature-adaptive subsampling for big data regression. \emph{Under review}.
-  \item Wang D$^{\dagger}$, \textbf{Dong Q}$^{\dagger}$, Zhang Q, Hu Q,
-  Wang H. Random Subsampling: Inferential Targets, Estimators, and
-  Sampling Procedures. \emph{Under review}. $^{\dagger}$Equal contribution.
-  \item \textbf{Dong Q}$^{\dagger}$, Man A$^{\dagger}$, Hua Z, Teng Z, Wang H, Yan J. Predictive-Modeling--Assisted Interim Decision-Making in Adaptive Trials with Censored Survival Outcomes. \emph{Under revision}. $^{\dagger}$Equal contribution.
-  \item \textbf{Dong Q}, Liu B, Zhao H. Weighted Least Squares Model Averaging for Accelerated Failure Time Models. \emph{Computational Statistics and Data Analysis}, 2023.
-  \item Zhao H, \textbf{Dong Q}. Variable Selection for Additive Hazards Model with Current Status Data. \emph{Journal of Systems Science and Mathematical Sciences}, 2022.
-  \item Zhao H, Liu B, \textbf{Dong Q}. Jackknife Model Averaging of AFT Model with Current Status Data. \emph{Acta Mathematicae Applicatae Sinica}, 2023.
-  \item Chen Z, Lucchesi G, \textbf{Dong Q}, Zheng X, Song D, Wen Q, Cheng W, Ni J, Luo D. From Signals to Semantics: A Survey on Time Series Explainability through a Human-Cognitive Lens. Manuscript under review at \emph{ACM Computing Surveys}, 2025.
-\end{reslist}
-}
 
 \end{document}
  
