@@ -15,3 +15,13 @@
 
 auto/
 coverLetter/
+
+# Local application materials
+/general-pharma-cv/
+/general-tech-cv/
+/job-applications/
+/cover-letters/
+/.agents/skills/resume-tailor/
+
+# Personal records
+/assets/pdfs/Qingkai_unoff_transcript.pdf
